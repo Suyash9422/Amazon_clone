@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+
+/* Navigation-bar */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    height: 60px;
+    display: flex;
+    align-items: center;   
+    padding-left: 10px;
+}
+
+
+/* amazon logo */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_ico.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50px;
+    width: 100%;
+    
+}
+
+
+/* box2 loc-delto-ind */
+.loc {
+    height: 50px;
+    width: 88.64px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.add-ico {
+    display: flex;
+    align-items: center;
+}
+
+.del_to {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.ind {
+    font-size: 1rem;
+    color: white;
+}
+
+/* box3 search */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    background-color: rgb(247, 187, 77);
+    
+}
+
+.search-sel {
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-in {
+    width: 100% ; /*this will use all remaining space in nav-search excluding space taken by search-ico and nav-select*/
+    font-size: 1rem;
+    border: none;
+}
+
+.search-ico {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+/* white-hov-bor-all-items */
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+

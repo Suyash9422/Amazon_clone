@@ -74,6 +74,7 @@
 }
 .nav-search:hover {
     border-color: orange;
+
 }
 
 .search-sel {
@@ -184,3 +185,35 @@
     text-decoration: none;
     font-size: 0.9rem;
 font-weight: 700;}
+
+/* hero-section */
+.hero-sec {
+    background-image: url("hero_sec.jpg");
+    height:400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+ 
+    /* Hero-contain */
+.hero-contain {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 40px;
+}
+            
+     /* hero-text */
+.hero-text{
+color: black;
+}
+
+.hero-text-link {
+    color: #222f3d;
+    margin-left: 10px;
+}

@@ -358,10 +358,10 @@ ul a {
 .foot-panel4 {
     background-color: #131a22;
     color: white;
-    height:350px;
+    height:320px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: last baseline;
     font-size: 0.5rem;
     text-decoration: none;
 }
@@ -383,4 +383,29 @@ ul a {
 .col1-edit2 {
     color: #999999;
     font-size: 0.75rem;
+}
+
+/* Footer section panel5 copyright sec */
+.foot-panel5 {
+    background-color: #131a22;
+    height:77px;
+}
+.foot-panel5-txt1 {
+    color: #dddddd;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.foot-panel5-txt1 a {
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0px 8px 0px 8px;
+}
+
+.foot-panel5-txt2 {
+    color: #dddddd;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5px;
 }

@@ -191,7 +191,7 @@ font-weight: 700;}
 /* hero-section */
 .hero-sec {
     background-image: url("new-hero-sec.jpg");
-    height:400px;
+    height:350px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -239,6 +239,72 @@ color: black;
     background-color: white;
 
 }
+
+.box1 {
+  background-color: white;
+  width: 385px;              /* content width */
+  padding: 20px;             /* as shown in box model */
+  margin-bottom: 15px;       /* bottom margin */
+  border: 0;                 /* as shown */
+  box-sizing: content-box;   /* keeps 385px as content width */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.inner-box1 h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.content-img {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.c1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.item {
+  text-align: center;
+  width: 48%;
+}
+
+.item .img {
+  width: 100%;
+  height: 110px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+/* Image backgrounds */
+.kitchen-img1 { background-image: url("k-1.jpg"); }
+.kitchen-img2 { background-image: url("k-2.jpg"); }
+.kitchen-img3 { background-image: url("k-3.jpg"); }
+.kitchen-img4 { background-image: url("k-4.jpg"); }
+
+.item p {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.shop-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
 
 .pc-link{
     text-decoration: none;
